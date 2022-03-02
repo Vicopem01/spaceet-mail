@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "gilroy-regular";
+  src: url("./assets/fonts/gilroy/Gilroy-Regular.otf");
+}
+
+@font-face {
+  font-family: "gilroy-medium";
+  src: url("./assets/fonts/gilroy/Gilroy-Medium.otf");
+}
+
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("./assets/fonts/gilroy/Gilroy-Bold.otf");
+}
+
+@font-face {
+  font-family: "gilroy-semibold";
+  src: url("./assets/fonts/gilroy/Gilroy-Semibold.otf");
+}
+
+@font-face {
+  font-family: "recoleta-alt";
+  src: url("./assets/fonts/recoleta/Recoleta-Bold.ttf");
+}
+
+:root {
+  --gilroy-regular: gilroy-regular;
+  --gilroy-medium: gilroy-medium;
+  --gilroy-bold: gilroy-bold;
+  --gilroy-semibold: gilroy-semibold;
+  --recoleta: recoleta-alt;
+  --gold: #eab221;
+  --black: #12082d;
+  --grey: #636366;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--recoleta);
+}
+
+p,
+a,
+span,
+button,
+label {
+  font-family: var(--gilroy-regular);
+}
+
+a {
+  text-decoration: none;
+}
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: inherit;
+}
+.active {
+  border-bottom: 3px solid #eab221;
+}

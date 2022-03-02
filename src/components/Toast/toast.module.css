@@ -1,0 +1,38 @@
+.invalid {
+  width: 360px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.invalid > img {
+  width: 40px;
+}
+
+.inva {
+  display: flex;
+  flex-direction: column;
+}
+
+.in {
+  font-family: var(--gilroy-medium);
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: rgba(99, 99, 102, 0.8);
+}
+
+.toast {
+  font-family: var(--gilroy-medium);
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-left: 20px;
+  font-size: 1.1rem;
+}
+
+.times {
+  cursor: pointer;
+  padding: 10px;
+}
